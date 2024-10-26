@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="server-container">
+            <input type="text" id="server-input" placeholder="Enter server name" />
+            <button id="create-server-btn">Create Server</button>
+            <div id="server-list" class="server-list"></div>
+        </div>
+        <div class="chat-container" id="chat-container" style="display: none;">
+            <div id="chat-box" class="chat-box"></div>
+            <div class="input-container">
+                <input type="text" id="name-input" placeholder="Enter your name" />
+                <input type="text" id="message-input" placeholder="Type a message..." />
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
